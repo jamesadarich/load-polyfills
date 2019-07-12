@@ -1,0 +1,14 @@
+# source code
+src
+
+# npm
+package-lock.json
+.npmignore
+npm-debug.log*
+debug.log
+
+# typescript
+tsconfig.json
+
+# git
+.gitignore

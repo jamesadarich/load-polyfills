@@ -1,0 +1,20 @@
+#NPM
+node_modules
+npm-debug.log*
+debug.log
+
+#TypeScript
+*.js
+*.js.map
+*.d.ts
+!declarations.d.ts
+
+#Sass
+*.css
+
+#Test
+coverage
+.nyc_output
+
+#Distribution code
+dist
