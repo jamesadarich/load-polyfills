@@ -1,20 +1,21 @@
-#NPM
+# NPM
 node_modules
 npm-debug.log*
 debug.log
 
-#TypeScript
+# TypeScript
 *.js
 *.js.map
 *.d.ts
 !src/**/*.d.ts
 
-#Sass
-*.css
-
-#Test
+# Test
 coverage
 .nyc_output
 
-#Distribution code
+# Distribution code
 dist
+
+# Linting
+!.eslintrc.js
+!.prettierrc.js
