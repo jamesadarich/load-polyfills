@@ -9,6 +9,11 @@ debug.log
 
 # typescript
 tsconfig.json
+tsconfig.dist.json
 
 # git
 .gitignore
+
+# test
+coverage
+.nyc_output

@@ -3,12 +3,11 @@
        "target": "es5",
        "module": "commonjs",
        "moduleResolution": "node",
-       "allowJs": true,
        "esModuleInterop": true,
        "strict": true,
        "noImplicitAny": true,
        "declaration": true,
-       "sourceMap": false,
+       "sourceMap": true,
        "preserveConstEnums": true,
        "experimentalDecorators": true,
        "emitDecoratorMetadata": true,
@@ -19,13 +18,13 @@
            "es5",
            "es2015.promise"
        ],
-       "outDir": "./dist"
+       "outDir": "dist"
     },
     "exclude": [
-       "./node_modules"
+       "node_modules"
     ],
     "include": [
-       "./**/*.ts"
+       "**/*.ts"
     ]
  }
  

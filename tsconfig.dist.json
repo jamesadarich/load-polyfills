@@ -1,0 +1,13 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "module": "esnext",
+        "sourceMap": false
+    },
+    "exclude": [
+        "**/*.spec.ts",
+        "**/*.mock.ts",
+        "**/*.builder.ts"
+    ]
+ }
+ 

@@ -1,12 +1,5 @@
-import "promise-polyfill/src/polyfill";
-import "./declarations";
+// promise polyfill always needed to allow dynamic import
+import 'core-js/features/promise';
 
-export async function loadPolyfills() {
-    const polyfills = [];
-
-    if ("fetch" in window === false) {
-        polyfills.push(import("whatwg-fetch"));
-    }
-
-    return Promise.all(polyfills);
-};
+export * from './polyfills';
+export { loadPolyfills } from './load-polyfills';
