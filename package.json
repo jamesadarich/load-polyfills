@@ -10,7 +10,7 @@
     "test": "npm run test:coverage && npm run test:lint",
     "test:coverage": "nyc --reporter=lcov --reporter=html --exclude=**/*.builder.ts --exclude=**/*.spec.ts --exclude=**/*.mock.ts --extension=.ts npm run test:unit -- --hide-progress && nyc report",
     "test:lint": "eslint src/**/*.ts --max-warnings 0",
-    "test:unit": "alsatian **/*.spec.ts"
+    "test:unit": "alsatian \"**/*.spec.ts\""
   },
   "repository": {
     "type": "git",
