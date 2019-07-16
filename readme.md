@@ -35,3 +35,7 @@ loadPolyfills({
 ## Contributing
 
 If you've added your own polyfill that you think will be useful to other people or have an 
+
+## License
+
+This package has been released under the [MIT license](https://github.com/jamesadarich/load-polyfills/blob/master/LICENSE)
