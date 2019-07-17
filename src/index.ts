@@ -1,5 +1,5 @@
 // promise polyfill always needed to allow dynamic import
-import 'core-js/features/promise';
+import 'promise-polyfill';
 
 export * from './polyfills';
 export { loadPolyfills } from './load-polyfills';
