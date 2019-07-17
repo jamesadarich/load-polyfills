@@ -11,7 +11,9 @@ Dynamically loads browser polyfills only when they are required.
 
 There are so many great new features being added to modern evergreen browsers that we can all take advantage of. Unfortunately, there are some browsers that will never take these features and still represent a significant proportion of users. Enter polyfills to save the day! They back port these new features but at a cost of all users having to download. [polyfill.io](https://polyfill.io/) gives you the ability to load only these polyfills when needed, avoiding the download cost but still present an additional network request.
 
-`load-polyfills` is an answer to the problem without additional network requests for users who don't need the polyfills and minimal additional package size by allowing bundlers such as `webpack` to remove code you don't need and only load those polyfills when the feature has been detected as missing. 
+`load-polyfills` is an answer to the problem without additional network requests for users who don't need the polyfills and minimal additional package size by allowing bundlers such as `webpack` to remove code you don't need and only load those polyfills when the feature has been detected as missing.
+
+`load-polyfills` adds just over **1kB** gzipped including the Promise polyfill, each additional polyfill added should only  add approximately **50B** to users that don't need the polyfill. Pretty neat, eh?
 
 ## Usage
 
