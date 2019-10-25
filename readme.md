@@ -2,7 +2,7 @@
 
 Dynamically loads browser polyfills only when they are required.
 
-[![Build Status](https://travis-ci.org/jamesadarich/load-polyfills.svg?branch=master)](https://travis-ci.org/jamesadarich/load-polyfills)
+[![Build Status](https://travis-ci.com/jamesadarich/load-polyfills.svg?branch=master)](https://travis-ci.com/jamesadarich/load-polyfills)
 [![Maintainability](https://api.codeclimate.com/v1/badges/cb402d23fefd0e2f7973/maintainability)](https://codeclimate.com/github/jamesadarich/load-polyfills/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/cb402d23fefd0e2f7973/test_coverage)](https://codeclimate.com/github/jamesadarich/load-polyfills/test_coverage)
 
