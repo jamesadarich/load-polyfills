@@ -18,9 +18,14 @@ export class FetchPolyfillTests {
 
     @Test('apply() creates a fetch')
     public async applyCreatesAFetch() {
+        (global as GlobalWithWindow).window = {};
         mock('whatwg-fetch', './fetch.mock');
 
+        Expect(FetchPolyfill.test()).toBe(false);
+
         await FetchPolyfill.apply();
+
+        Expect(FetchPolyfill.test()).toBe(true);
 
         Expect((global as GlobalWithWindow).window.fetch).toBeDefined();
         Expect((global as GlobalWithWindow).window.fetch).toEqual(Any(Function));
